@@ -1,12 +1,12 @@
-package web.dao;
+package com.leklyus.spring.springboot.pp_3_1_1_springboot.dao;
 
+import com.leklyus.spring.springboot.pp_3_1_1_springboot.models.User;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
+import jakarta.persistence.TypedQuery;
+import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Controller;
-import web.models.User;
 
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
-import javax.persistence.TypedQuery;
-import javax.transaction.Transactional;
 import java.util.List;
 
 @Controller

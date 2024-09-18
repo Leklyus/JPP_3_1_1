@@ -1,6 +1,7 @@
-package web.dao;
+package com.leklyus.spring.springboot.pp_3_1_1_springboot.dao;
 
-import web.models.User;
+
+import com.leklyus.spring.springboot.pp_3_1_1_springboot.models.User;
 
 import java.util.List;
 

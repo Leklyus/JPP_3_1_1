@@ -1,6 +1,6 @@
-package web.models;
+package com.leklyus.spring.springboot.pp_3_1_1_springboot.models;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "users")

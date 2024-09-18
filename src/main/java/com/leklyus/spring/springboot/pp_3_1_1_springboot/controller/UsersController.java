@@ -1,11 +1,12 @@
-package web.controller;
+package com.leklyus.spring.springboot.pp_3_1_1_springboot.controller;
 
+import com.leklyus.spring.springboot.pp_3_1_1_springboot.models.User;
+import com.leklyus.spring.springboot.pp_3_1_1_springboot.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
-import web.models.User;
-import web.service.UserService;
+
 
 @Controller
 public class UsersController {

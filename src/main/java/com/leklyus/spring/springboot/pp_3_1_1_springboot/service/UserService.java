@@ -1,6 +1,6 @@
-package web.service;
+package com.leklyus.spring.springboot.pp_3_1_1_springboot.service;
 
-import web.models.User;
+import com.leklyus.spring.springboot.pp_3_1_1_springboot.models.User;
 
 import java.util.List;
 
@@ -8,12 +8,12 @@ public interface UserService {
 
     void saveUser(User user);
 
-    public List<User> getUsers();
+    List<User> getUsers();
 
-    public User getUser(Long id);
+    User getUser(Long id);
 
-    public void updateUser(Long id, User user);
+    void updateUser(Long id, User user);
 
-    public void deleteUser(Long id);
+    void deleteUser(Long id);
 
 }
